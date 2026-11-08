@@ -1,8 +1,7 @@
-# Wefty (phone app)
+# Wefty moved to https://wefty.org/
 
-Wefty (it used to be called Vault) is a notes app for a PC, a phone and a Chromebook. This is the web app behind
-Wefty on the phone and the Chromebook, served by GitHub Pages at https://crustyt0es.github.io/wefty/.
+Wefty's web app lives at https://wefty.org/ now (the CrustyT0es/wefty.org repo). Opening https://crustyt0es.github.io/wefty/ in a browser
+takes you there; a device that's signed in moves its sign-in over with one tap, no password needed.
 
-It's only the app itself: the notes, files and keys are in the owner's own Supabase project, behind their sign-in.
-Made from `vault/web` in the owner's Jarvis repo by `python -m vault.publish`; don't edit it here. `version.json`
-lists every file with its sha256, and every device checks each file against it before using a new version.
+This repo still holds the full app, kept up to date with every Wefty release, for old links and apps installed from
+here. Made by `python -m vault.publish`; don't edit it here.
